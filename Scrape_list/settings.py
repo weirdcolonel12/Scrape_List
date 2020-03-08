@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'codedaddies_list.urls'
+ROOT_URLCONF = 'Scrape_list.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'codedaddies_list.wsgi.application'
+WSGI_APPLICATION = 'Scrape_list.wsgi.application'
 
 
 # Database
